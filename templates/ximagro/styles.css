@@ -1,0 +1,39 @@
+.login {
+	background: url(bg_1.jpg) no-repeat;
+	background-size: 100% auto;
+    background-position: top;
+    background-color: #4f850f;
+}
+.login div.login-bg {
+	background: transparent url(login_bg.png) no-repeat;
+	width: 500px;
+	height: 400px;
+	position: relative; 
+	left: 53%; 
+	top: 50%;
+	margin: auto auto;
+	margin-left: -253px; 
+	margin-top: -200px;
+}
+.login div.logo-img {
+	width: 372px;
+	height: 87px;
+	background: transparent url(logo_bg.png) no-repeat;
+}
+.logo-copyright {
+	position: absolute;
+    right: 72px;
+    bottom: -20px;
+}
+.loader {
+	background-image: url(progressbar01.gif);
+    position: absolute;
+    display: table;
+    width: 224px;
+    min-height: 30px;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

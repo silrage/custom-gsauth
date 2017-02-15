@@ -1,0 +1,354 @@
+body 
+{
+	margin: 0 0;
+	color: #FFFFFF;
+	font-family: Arial, Tahoma;
+	font-size: 12px;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+	height: 100%;
+}
+
+a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+
+form, iframe html, iframe html body, iframe html body form {
+	padding: 0px;
+	margin: 0px;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+table, th, td {
+	border: 0px;
+	font-family: Arial, Tahoma;
+	font-size: 12px;
+}
+
+img {
+	border: 0px;
+}
+
+input {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+select {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+textarea {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+input[type='checkbox'], input[type='radio'] {
+	background: transparent;
+}
+
+input[type='button'] {
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;	
+}
+
+input[type='text'], input[type='password'] {
+}
+
+fielset {
+	padding: 5px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+.login {
+	background: #cccbcd;
+	color: #fff;
+	overflow: auto;
+}
+
+.login a {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.login a.copyright-link {
+}
+
+.login a.demo-link {
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
+.login a.reset-password-link {
+}
+
+.login input[type='button'], .login  input[type='submit'] {
+	border: 1px solid #4b4b4b;
+	color: #2f5172;
+	padding-top: 2px;
+	padding-bottom: 2px;	
+	-moz-border-radius: 3px;
+	border-radius: 2px 2px;
+	min-width: 85px;
+	box-shadow: none;
+}
+
+.login input[type='button']:hover, input[type='submit']:hover {
+	border: 1px solid #000;
+	color: #009846;
+	box-shadow: none;
+}
+
+.login input[type='text'], .login input[type='password'] {
+	border: 1px solid #a96122;
+	color: #464646;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 203px;
+}
+
+.login input[type='text']:hover, .login input[type='password']:hover {
+	border: 1px solid #009846;
+}
+
+.login select {
+	border: 1px solid #a96122;
+	color: #464646;
+	background-color: #fff;
+	width: 203px;
+}
+
+.login select:hover {
+	border: 1px solid #009846;
+}
+
+.login div.login-gradient-bg {
+	height: 680px;
+}
+
+div.login-padding {
+	padding-left: 50px;
+	padding-right: 75px;
+	padding-top: 23px;
+	position: relative;
+}
+
+.login form.login-form {
+
+}
+
+.login div.logo-info {
+	padding-top: 40px;
+}
+
+.login div.logo-data {
+	padding-top: 45px;
+	height: 60px;
+}
+
+.login div.logo-data table {
+	width: 100%;
+	margin: auto auto;
+}
+
+.login div.logo-data th {
+	text-align: left;
+	width: 40%;
+}
+
+.login div.logo-data td {
+	text-align: left;
+	padding-left: 82px;
+	width: 60%;
+}
+
+.login div.logo-data th {
+	text-align: left;
+	
+}
+
+.login div.logo-data-reset table th {
+	text-align: left;
+}
+
+.login div.logo-data-reset table td {
+	text-align: left;
+}
+
+.login div.logo-data-reset {
+	padding-top: 10px;
+	height: 80px;
+}
+
+.login div.logo-data-reset table {
+	width: 100%;
+	margin: auto auto;
+}
+
+.login div.logo-data-reset table th {
+	
+}
+
+.login div.logo-data-reset table td {
+	text-align: right;
+}
+
+.login div.logo-err {
+	text-align: left;
+	padding-top: 0px;
+	height: 20px;
+	
+}
+
+.login div.logo-cookie {
+	text-align: left;
+	padding-top: 10px;
+	
+	vertical-align: middle;
+}
+
+.login div.logo-cookie input {
+	vertical-align: middle;
+}
+
+.login div.logo-cookie label {
+	vertical-align: middle;
+	padding-top: 2px;
+}
+
+.login div.logo-action {
+	padding-top: 3px;
+	
+}
+
+.login div.logo-action table {
+	width: 100%;
+	margin: auto auto;
+}
+
+.login div.logo-action table th {
+	padding: 2px;
+	text-align: left;
+}
+
+.login div.logo-action table td {
+	padding: 2px;
+	text-align: left;
+}
+
+.login div.logo-action a {
+	text-decoration: none;
+}
+.login div.logo-action a:hover {
+	color: #464646;
+    text-decoration: none;
+}
+
+.login div.logo-enter {
+	padding-top: 0px;
+	text-align: center;
+}
+
+.login div.logo-reset {
+	padding-top: 4px;
+	text-align: center;
+}
+
+.login div.logo-reset input[type='submit'] {
+	width: 150px;
+}
+
+.login div.logo-action-reset {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.selected {
+	background-color: #FFF5DD;
+}
+.loader {
+	
+}
+
+tr[tp='table']:hover {
+	background-color: #D0CECF;
+}
+
+.login div.logo-data {
+	height: auto !important;
+}
+.login-page-lang {
+	padding: 4px 5px !important;
+}
+.branch-switcher input {
+	display: none;
+}
+.branch-switcher {
+	text-align: center;
+	font-size: 10px;
+	height: 26px;
+	margin-top: 3px;
+}
+.branch-switcher input:checked +label {
+	background-color: white;
+	color: black;
+	cursor: default;
+}
+.branch-switcher label {
+	border: 1px solid #b4b4b4;
+	display: block;
+	float: right;
+	min-width: 100px;
+	padding: 4px 0px;
+	background-color: #ebebeb;
+	color: #A7A6A6;
+}
+.branch-switcher label:first-of-type {
+	border-radius: 0px 4px 4px 0px;
+	border-left: none;
+}
+.branch-switcher label:last-of-type {
+	border-radius: 4px 0px 0px 4px;
+	border-right: none;
+}
+@media only screen and (max-width: 767px) {
+	.branch-switcher label {
+		min-width: 49.7%;
+	}
+}
+@media only screen and (max-width: 610px) {
+	.branch-switcher label {
+		min-width: 49.6%;
+	}
+}
+@media only screen and (max-width: 458px) {
+	.branch-switcher label {
+		min-width: 49.5%;
+	}
+}
+@media only screen and (max-width: 366px) {
+	.branch-switcher label {
+		min-width: 49.3%;
+	}
+}
